@@ -53,14 +53,19 @@
     <UnityVersion>2020.3.29f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\AI\Inky.cs" />
-    <Compile Include="Assets\Scripts\AI\Ghost.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Scripts\AI\Clyde.cs" />
-    <Compile Include="Assets\Scripts\AI\Blinky.cs" />
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\Scripts\AI\Pinky.cs" />
     <Compile Include="Assets\Scripts\Pacman.cs" />
+    <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\AI\Clyde.cs" />
+    <Compile Include="Assets\Scripts\AI\Blinky.cs" />
+    <Compile Include="Assets\Scripts\AI\Ghost.cs" />
+    <Compile Include="Assets\Scripts\AI\Inky.cs" />
+    <Compile Include="Assets\Scripts\Interactions.cs" />
+    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
